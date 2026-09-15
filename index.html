@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+       content="Personal profile and mini-portfolio of Deborah D Amos, a second-year Software Engineering student.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My  Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <img src="mypic.jpg" alt="my photo" width="200" class="profile-pic">
+        <h1>Deborah D Amos</h1>
+        <p>Second Year Software Engineering Student</p>
+    </header>
+    <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <article>
+                <p>
+                    I am a second-year Software Engineering student at African University.
+                    I am passionate about technology and enjoy learning new skills.
+                    I am particularly interested in creating websites and improving
+                    my understanding of software development.
+                </p>
+                <p>
+                    My goal is to continue developing my technical skills and gain
+                    practical experience that will help me become a better software
+                    engineer.
+                </p>
+            </article>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <article>
+                <h3>Web Development</h3>
+                <p>
+                    I am learning HTML and CSS and using them to create simple
+                    and structured websites.
+                </p>
+            </article>
+            <article>
+                <h3>Programming</h3>
+                <p>
+                    I am developing my programming skills through practical
+                    coursework and programming exercises.
+                </p>
+            </article>
+            <article>
+                <h3>Problem Solving</h3>
+                <p>
+                    I enjoy learning how to analyse problems and develop
+                    solutions using technology.
+                </p>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                If you would like to contact me, please complete the form below.
+            </p>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        minlength="3"
+                        required
+                    >
+                </div>
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="example@email.com"
+                        required
+                    >
+                </div>
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="+263 77 123 4567"
+                        pattern="[+]?[0-9 ]{7,15}"
+                        required
+                    >
+                </div>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Enter your subject"
+                        minlength="3"
+                        required
+                    >
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message here"
+                        minlength="10"
+                        required
+                    ></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Deborah D Amos. All rights reserved.</p>
+    </footer>
+</body>
+</html>
