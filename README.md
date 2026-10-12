@@ -53,3 +53,17 @@ AI-Assisted Content
 An AI tool was used to help draft the About Me content as required by the assignment.
 The AI-generated content was reviewed and edited so that the final version reflects my own interests, experience and writing style.
 The complete AI prompt, raw AI output, edited version and reflection are documented in: PROMPT_LOG.md
+
+Responsive Notes
+Breakpoints Tested
+-Mobile: 375px
+-Tablet: 768px
+-Desktop: 1280px
+Layout Decision
+-Flexbox: Used in the navigation bar to align links and allow them to wrap on smaller screens. Also used in the contact form to arrange fields vertically.
+-CSS Grid: Used in the Skills section. The layout changes from one column on mobile to two columns on tablets and three columns on desktop.
+-Media Queries: Custom min-width media queries adjust the Skills grid and spacing for larger screens.
+Tailwind CSS
+-Header: Tailwind utilities control responsive padding.
+-Navigation: Tailwind utilities control responsive horizontal padding.
+-Footer: Tailwind utilities control text size at different breakpoints.
